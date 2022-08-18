@@ -32,4 +32,4 @@ console.log(finalScore)
 
     return finalScore
 }
-// Final algoritm //
+// Final algorithm //
