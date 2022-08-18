@@ -5,7 +5,7 @@
 
 //created the function getScore with parameter score//
 function getScore (score){
-//created the variables of scire where will show the respectives scores//
+//created the variables score where will show the respectives scores//
     let scoreA = score>90 && score<=100
     let scoreB = score>=80 && score<90
     let scoreC = score>=70 && score<80
@@ -13,7 +13,7 @@ function getScore (score){
     let scoreF = score<60 && score>0 
 //created the variable finalScore, where will show to the user the final score//
     let finalScore ;
-//Use If/elseif for acess to the finalScore correct according to the score that was passed.//
+//Use If/elseif/else for acess to the finalScore correct according to the score that was passed to the user.//
 
     if(scoreA) {
         finalScore = 'A'
